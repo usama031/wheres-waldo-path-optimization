@@ -1,0 +1,27 @@
+# Where's Waldo: Path Optimization 🕵️‍♂️🧠
+
+This project explores how optimization algorithms can be applied to solve a fun and challenging problem: **finding the shortest path to Waldo** in a cluttered and visually complex image. By treating the search for Waldo as a pathfinding and scanning problem, we simulate and optimize a strategy to traverse the image most efficiently.
+
+---
+
+## 🎯 Project Objective
+
+To develop a method that simulates how a person might visually scan a **"Where’s Waldo"** image and apply **path optimization algorithms** (like TSP or greedy search) to reduce the total area scanned before finding Waldo.
+
+---
+
+## 📂 Project Structure
+
+```bash
+wheres-waldo-path-optimization/
+├── images/
+│   └── waldo_sample.jpg            # Sample Waldo image
+├── notebooks/
+│   └── path_optimization.ipynb     # Main analysis and path logic
+├── utils/
+│   ├── image_segmentation.py       # Break image into scan zones
+│   ├── tsp_solver.py               # Path optimization algorithms
+├── output/
+│   └── path_visualization.png      # Visualization of scanning path
+├── README.md
+└── requirements.txt
